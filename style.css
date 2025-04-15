@@ -17,9 +17,10 @@ body {
   box-sizing: border-box;
   width: 1280px;
   margin: auto;
-  padding: 88px 80px 137px 80px;
+  padding: 88px 80px 65px 80px;
 }
 
+/*-------------TITLE-------------*/
 #title-page p {
   font-size: 16px;
   font-weight: bold;
@@ -28,30 +29,109 @@ body {
 
 #title-page h1 {
   font-size: 36px;
+  margin-top: 8px;
+  margin-bottom: 40px;
 }
 
 #title-img p {
   font-size: 16px;
   font-style: italic;
   color: #333333;
+  text-align: center;
+  margin-top: 24px;
 }
 
+#first-divider {
+  border: none;
+  height: 1px; 
+  background-color: #d9d9d9; 
+  margin-top: 40px;
+  margin-bottom: 64px;
+}
+
+/*-------------DESCRIPTION-------------*/
 #description h3 {
   font-size: 16px;
   font-weight: bold;
   color: #E1624F;
+  margin-bottom: 2px;
 }
 
 #description h2 {
   font-size: 32px;
   font-weight: bold;
+  padding-bottom: 8px;
 }
 
 #description p {
   font-size: 16px;
   color: #333333;
+  margin-bottom: 64px;
+}
+/*-------------CONTENT-LIST-------------*/
+#content-list h2{
+  font-size: 28px;
+  margin-top: 20px;
+  margin-bottom: 4px;
 }
 
-#content-list h2{
-  color: aqua;
+#content-list p{
+  font-size: 16px;
+  color: #333333;
+}
+
+ul {
+  padding-left: 24px;
+  margin-bottom: 48px;
+}
+
+li {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333333; 
+}
+
+ul li::marker {
+  color: #333333;
+}
+
+.first-child {
+  color: #0C51A7;
+}
+
+#second-child {
+  color: #E5245E;
+}
+
+#third-child {
+  color: #E95E10;
+}
+
+#special-child {
+  color: #591B98;
+}
+/*-------------LAST-DESCRIPTION-------------*/
+#last-description {
+  font-size: 16px;
+  color: #333333;
+  text-align: center;
+}
+
+#second-divider {
+  border: none;
+  height: 1px; 
+  background-color: #d9d9d9; 
+  margin-bottom: 40px;
+}
+/*-------------FOOTER-------------*/
+footer {
+  font-size: 16px;
+  line-height: 150%;
+  color: #333333;
+  text-align: center;
+  padding-bottom: 48px;
+}
+
+footer img {
+  vertical-align: middle;
 }
